@@ -56,3 +56,32 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Secrets and API Keys
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+*.crt
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+credentials.yaml
+credentials.yml
+config/secrets/
+*secret*
+*credentials*
+*api_key*
+*apikey*
+
+# Cloud provider credentials
+.aws/
+.azure/
+.gcp/
+
+# IDE and tool specific secrets
+.vscode/settings.json
+.idea/**/workspace.xml
