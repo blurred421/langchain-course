@@ -364,7 +364,7 @@ def main():
     """Main entry point for the ReAct agent application."""
     print("Hello from langchain-course!\n")
     
-    query = "Search for 3 job postings for an AI engineer using langchain in the bay area on linkedin and list their details"
+    query = "Search for 3 job postings for an AI engineer using langchain in the Detroit Michigan area on linkedin and list their details"
     
     response = run_agent(query)
     
